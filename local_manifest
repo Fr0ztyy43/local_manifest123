@@ -6,6 +6,7 @@
   <remote name="begonia-dev" fetch="https://github.com/begonia-dev" />
  
  <project path="android/device/redmi/begonia" name="android_device_redmi_begonia" remote="begonia-dev" revision="12.0" />
+ <project path="android/device/mediatek/sepolicy" name="android_device_mediatek_sepolicy.git" remote="begonia-dev" revision="12.0" />
  <project path="android/vendor/redmi/begonia" name="android_vendor_redmi_begonia" remote="begonia-dev" revision="12.0" />
  <project path="android/kernel/xiaomi/mt6785" name="android_kernel_xiaomi_mt6785" remote="begonia-dev" revision="12.0" />
  
