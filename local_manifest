@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-        <remote name="abi" fetch="https://github.com/abhixv" />
-        <remote name="himanshu" fetch="https://github.com/himanshu0218" />
-        <remote name="agent" fetch="https://github.com/AgentFabulous" />
-        <remote name="posp" fetch="https://github.com/PotatoDevices" />
-        <remote name="santosh" fetch="https://github.com/santoshhh000" />
-        <remote name="PixelExperience" fetch="https://github.com/PixelExperience-Devices" />
+        <remote name="Fr0ztyy43" fetch="https://github.com/Fr0ztyy43" />
+    
 
-        <project path="device/redmi/begonia" name="begonia_ross" remote="himanshu" revision="main" />
-        <project path="vendor/redmi/begonia-firmware" name="vendor_redmi_begonia-firmware" remote="posp" revision="dumaloo-release" />
-        <project path="kernel_xiaomi_begonia" name="begonia" remote="PixelExperience" revision="eleven" />
-        <project path="vendor/redmi/begonia" name="vendor_redmi_begonia_ross" remote="santosh" revision="dumaloo-release" />
-        <project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy_" remote="abi" revision="main" />
-        <project path="vendor/mediatek/opensource" name="vendor_mediatek_opensource" remote="posp" revision="dumaloo-release" />
-        <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="himanshu" revision="dot11" />
-        <project path="vendor/mediatek/interfaces" name="vendor_mediatek_interfaces" remote="posp" revision="dumaloo-release" />
-        <project path="vendor/ANXCamera" name="vendor_ANXCamera" remote="santosh" revision="11" />
+        <project path="kernel/amsung/msm8916-caf" name="android_kernel_samsung_msm8916-caf" remote="Fr0ztyy43" revision="lineage-17.1" />
+        <project path="device/samsung/msm8916-common" name="android_device_samsung_msm8916-common" remote="Fr0ztyy43" revision="lineage-17.1" />
+        <project path="proprietary/vendor/samsung" name="proprietary_vendor_samsung" remote="Fr0ztyy43" revision="lineage-17.1" />
+        <project path="android/device/samsung/a3lte" name="android_device_samsung_a3lte" remote="Fr0ztyy43" revision="lineage-17.1" />
